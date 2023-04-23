@@ -30,3 +30,21 @@
 <p align="center">
   <img alt="Dinâmica do Projeto" src=".github/assets/img/img01.jpg" width="100%">
 </p>
+
+#### OpenAI API e ChatGPT
+
+##### Tokens
+
+- Tokens para o ChatGPT (ou qualquer modelo baseado na arquitetura GPT) são as unidades básicas de processamento de texto usadas pelo modelo durante o treinamento e a geração de respostas. Os tokens podem ser palavras, caracteres, ou sub-palavras, dependendo da língua e do "tokenizador" utilizado. Fonte: ChatGPT
+
+<p align="center">
+  <img alt="Dinâmica do Projeto" src=".github/assets/img/tokens.jpg" width="100%">
+</p>
+
+##### Models
+
+- Modelos para o ChatGPT são versões de modelos de linguagem treinados usando a arquitetura GPT (Generative Pre-trained Transformer) desenvolvida pela OpenAI. Eles são redes neurais profundas treinadas em grandes quantidades de texto para aprender a compreender a gerar texto humano coerente.
+
+<p align="center">
+  <img alt="Dinâmica do Projeto" src=".github/assets/img/models.jpg" width="100%">
+</p>
