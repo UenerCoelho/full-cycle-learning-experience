@@ -59,3 +59,26 @@
 
 - As Mensagens vão se acumulando para armazenar o contexto
 - Quando não couber mais tokens, precisamos remover mensagens para a nova poder entrar, por isso quanto maior a quantidade de tokens, mais contexto será possível criar
+
+#### Tokens e Contexto
+
+- Segredo de tudo é fazer a contagem dos tokens.
+- Sabendo quantos tokens estamos utilizando e a quantidade máxima do modele, podemos acumular mensagens.
+- Quanto mais mensagens, melhor a resposta por conta do contexto das anteriores
+
+### Microservice of Chat
+
+#### Clean Architecture
+
+<p align="center">
+  <img src=".github/assets/img/img02.jpg">
+</p>
+
+###### Pontos Importantes
+
+- O coração da aplicação dever ter suas regras de negócio consolidadas.
+- O coração da aplicação não sabe que existe a API da OpenAI.
+  - Não vê o use case, não vê o repositório, etc.
+- Armazenar todas as conversações em um banco de dados.
+  - todas vez que começar um novo chat, devemos armazená-lo no banco de dados, assim podemos, também, basearmos um novo chat com o contexto do chat armazenado em questão.
+- O Usuário poderá informar seu 'user_id' como referência para ter acesso as conversas de um determinado usuário.
