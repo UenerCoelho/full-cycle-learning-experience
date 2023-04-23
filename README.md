@@ -1,4 +1,4 @@
-<img src=".github/assets/img/fc-logo.png" />
+<img align="center" src=".github/assets/img/fc-logo.png" />
 
 # Full Cycle Learning Experience
 
