@@ -24,5 +24,5 @@
   - Também teremos interação do WhatsApp e do Twilio, o Twilio fornecera o número para ser utilizado no WhatsApp, assim o Twilio receberá a mensagem enviada para o WhatsApp, e chamará o Microsserviço Chat MS, através de uma requisição HTTP. Essa chama HTTP será uma chamada de WebHook.
 
 <p align="center">
-  <img alt="Dinâmica do Projeto" src="./github/img01.jpg" width="100%">
+  <img alt="Dinâmica do Projeto" src=".github/img01.jpg" width="100%">
 </p>
