@@ -1,4 +1,6 @@
-<p><img src=".github/assets/img/fc-logo.png"> # Full Cycle Learning Experience
+<img src=".github/assets/img/fc-logo.png" />
+
+# Full Cycle Learning Experience
 
 ## Aula 01 Docker, Containers and Microservice of ChatGPT
 
