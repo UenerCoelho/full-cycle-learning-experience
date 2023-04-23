@@ -82,3 +82,19 @@
 - Armazenar todas as conversações em um banco de dados.
   - todas vez que começar um novo chat, devemos armazená-lo no banco de dados, assim podemos, também, basearmos um novo chat com o contexto do chat armazenado em questão.
 - O Usuário poderá informar seu 'user_id' como referência para ter acesso as conversas de um determinado usuário.
+  - O 'user_id' será a referência para pegar a conversa.
+- Servidor Web e gRPC para realizar as conversas.
+- Precisaremos gerar um Token no site da OpenAI para termos acesso a API.
+- A autenticação do nosso microsserviço também será realizada via eum token fixo em arquivo de configuração
+
+### Tecnologias
+
+- Docker
+- Linguagem Go
+- MySQL
+
+#### Docker Básico Principal
+
+<p align='center'>
+  <img src=".github/assets/img/docker.jpg">
+</p>
