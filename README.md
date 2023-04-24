@@ -98,3 +98,29 @@
 <p align='center'>
   <img src=".github/assets/img/docker.jpg">
 </p>
+
+##### Containers
+
+- O que são containers?
+  - Um container é um padrão de anidade de software que empacota código e todas as dependências de uma aplicação fazendo que a mesma seja executada rapidamente de forma confiável de um ambiente computacional para outro. Fonte: docker.com
+
+###### Como funciona o docker
+
+<p align='center'>
+  <img src='.github/assets/img/img03.jpg'>
+</p>
+
+<p align='center'>
+- Imagens do docker
+  <img src='.github/assets/img/img04.jpg'>
+</p>
+
+<p align='center'>
+- Dockerfile
+  <img src='.github/assets/img/img05.jpg'>
+</p>
+
+<p align='center'>
+- Construindo uma Imagem
+  <img src='.github/assets/img/img06.jpg'>
+</p>
