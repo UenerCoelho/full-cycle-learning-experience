@@ -25,3 +25,5 @@ type Chat struct {
 func (c *Chat) AddMessage(m *Message) {
 	c.Messages = append(c.Messages, m)
 }
+
+//Parei no Minuto 1:29:45
