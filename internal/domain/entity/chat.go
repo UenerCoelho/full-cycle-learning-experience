@@ -15,9 +15,13 @@ type Chat struct {
 	ID                   string
 	UserID               string
 	InitialSystemMessage *Message
-	Message              []*Message
+	Messages             []*Message
 	ErasedMessages       []*Message
 	Status               string
 	TokenUsage           int
 	Config               *ChatConfig
+}
+
+func (c *Chat) AddMessage(m *Message) {
+	c.Messages = append(c.Messages, m)
 }
